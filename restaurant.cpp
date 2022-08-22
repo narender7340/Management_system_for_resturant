@@ -1,7 +1,3 @@
-/*
-This is done by Vishal Yadav 190981 Mechanical Eng
-*/
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
