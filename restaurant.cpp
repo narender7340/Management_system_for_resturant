@@ -448,9 +448,6 @@ void customer()
 
 void mainnenu()
 {
-    printf("\n                                 **************************************************************************\n");
-    printf("                                                     WELCOME TO RESTAURANT MANAGEMENT SYSTEM\n");
-    printf("                                 **************************************************************************\n\n\n");
     printf("\t\t\t\t\t\t\t1. ADMIN SECTION--> \n");
     printf("\t\t\t\t\t\t\t2. CUSTOMER SECTION--> \n");
     printf("\t\t\t\t\t\t\t3. Exit--> \n\n");
@@ -464,6 +461,9 @@ int main()
     heada = createadmin(heada,3,"Manchurian Noodles",150);
     heada = createadmin(heada,4,"Fried Rice",180);
     heada = createadmin(heada,5,"Hakka Noodles",80);
+    printf("\n**************************************************************************************\n");        
+    printf("-----------------------WELCOME TO RESTAURANT MANAGEMENT SYSTEM-----------------------\n");
+    printf("**************************************************************************************\n\n");
 
     while(1)
     {
